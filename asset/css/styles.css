@@ -68,6 +68,24 @@ a {
     cursor: pointer;
 }
 
+/* Dấu 3 Chấm */
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp.line-2 {
+    --line-clamp: 2;
+}
+
+/* Ngắt dòng tránh phá vỡ giao diện */
+.break-all{
+    word-break: break-all;
+}
+
 /* ========================================= header ========================================== */
 .header {
     background: #fffcf4;
@@ -363,6 +381,7 @@ nav li.active a {
 }
 
 .popular .course-item .title a {
+    padding-right: 6px;
     color: #171100;
     font-size: 1.8rem;
     font-weight: 600;
