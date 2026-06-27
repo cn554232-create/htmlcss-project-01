@@ -427,7 +427,7 @@ nav li.active a {
     background: #2e2100;
 }
 
-.feedback-list{
+.feedback-list {
     display: flex;
     overflow: hidden;
 }
@@ -491,4 +491,58 @@ nav li.active a {
     font-size: 2.6rem;
     font-style: italic;
     line-height: 1.54; /* 153.846% */
+}
+
+/* ========================================= feedback ========================================== */
+.features {
+    margin-top: 135px;
+}
+
+.features .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features .images {
+    display: flex;
+    gap: 30px;
+}
+
+.features .images img {
+    width: 270px;
+    height: 470px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.features .lower {
+    margin-top: 34px;
+}
+
+.features .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 41%;
+}
+
+.features .body .heading.lv2 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.26; /* 126.316% */
+    letter-spacing: -0.76px;
+}
+
+.features .desc {
+    margin-top: 16px;
+    color: #5f5b53;
+    font-size: 1.6rem;
+    line-height: 1.75; /* 175% */
+}
+
+.features .cta-btn {
+    margin-top: 32px;
+    width: 143px;
+    height: 50px;
+    background: var(--primary-color);
 }
