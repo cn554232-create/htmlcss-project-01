@@ -53,7 +53,7 @@ a {
 
 .btn {
     display: inline-block;
-    min-width: 118px;
+    min-width: 144px;
     padding: 0 41px;
     line-height: 50px;
     color: #fff;
@@ -493,7 +493,7 @@ nav li.active a {
     line-height: 1.54; /* 153.846% */
 }
 
-/* ========================================= feedback ========================================== */
+/* ========================================= features 01 ========================================== */
 .features {
     margin-top: 135px;
 }
@@ -505,7 +505,7 @@ nav li.active a {
 
 .features .images {
     display: flex;
-    gap: 30px;
+    gap: 0 30px;
 }
 
 .features .images img {
@@ -542,7 +542,28 @@ nav li.active a {
 
 .features .cta-btn {
     margin-top: 32px;
-    width: 143px;
-    height: 50px;
+    width: 137px;
     background: var(--primary-color);
+}
+
+/* ========================================= features 2nd ========================================== */
+.features-2nd {
+    margin-top: 70px;
+}
+
+.features-2nd .body {
+    flex-direction: row-reverse;
+}
+
+.features-2nd .content {
+    width: 49%;
+}
+
+.features-2nd .images img {
+    width: 470px;
+    height: 440px;
+}
+
+.features-2nd .cta-btn {
+    padding: 0 35px;
 }
